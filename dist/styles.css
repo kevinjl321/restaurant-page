@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+}
+
+#content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#buttons{
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+#center-container{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 60vw;
+    height: 50vh;
+    background-color: rgb(154, 212, 154);
+}
+
+#about-us{
+    width: 15vw;
+    margin-top: 10vh;
+}
+
+#about-us p{
+    font-size: 1.2rem;
+}
+
+#about-image{
+    margin-left: 5vw;
+    margin-top: 15vh;
+    width: 15vw;
+    justify-content: center;
+}
+
+#about-image img{
+    width: 15vw; 
+}
+
+#about-us hr{
+    border: 2px solid black;
+}
