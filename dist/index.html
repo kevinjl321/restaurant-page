@@ -12,24 +12,71 @@
 
     <body>
         <div id = "content">
-            <div id = "buttons">
-                <button id = "home">HOME</button>
-                <button id = "menu">MENU</button>
-                <button id = "contact">CONTACT</button>
-            </div>
-            <div id = "center-container">
-                <div id = "about-us">
-                    <h1>Restaurant</h1>
-                    <hr>
-                    <br>
-                    <p>
-                        We are a restaurant dedicated
-                        to serving the best food! Check out our menu,
-                        which contains plenty of delicious food!
-                    </p>
+            <div id = "tab-home">
+                <div id = "buttons">
+                    <button id = "home">HOME</button>
+                    <button id = "menu">MENU</button>
+                    <button id = "contact">CONTACT</button>
                 </div>
-                <div id = "about-image">
-                    <img src = "images/food1.jpg">
+                <div id = "tab-content">
+                    <div id = "tab-text">
+                        <h1>Our Restaurant</h1>
+                        <hr>
+                        <p>
+                            We are dedicated to serving the best food.
+                            Check out our menu for more information!
+                            Locally sourced ingredients, never frozen
+                            and always fresh!
+                        </p>
+                    </div>
+                    <div id = "tab-img">
+                        <img src = "images/food1.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div id = "tab-menu" class = "display-none">
+                <div id = "buttons">
+                    <button id = "home">HOME</button>
+                    <button id = "menu">MENU</button>
+                    <button id = "contact">CONTACT</button>
+                </div>
+                <div id = "tab-content">
+                    <div id = "tab-text">
+                        <h1>Menu</h1>
+                        <hr>
+                        <p>
+                            Serving tomato soup,
+                            spaghetti, pizza, and
+                            hamburgers fresh from the farm!
+                            Come check us out!
+                        </p>
+                    </div>
+                    <div id = "tab-img">
+                        <img src = "images/food1.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div id = "tab-contact" class = "display-none">
+                <div id = "buttons">
+                    <button id = "home">HOME</button>
+                    <button id = "menu">MENU</button>
+                    <button id = "contact">CONTACT</button>
+                </div>
+                <div id = "tab-content">
+                    <div id = "tab-text">
+                        <h1>Contact Us</h1>
+                        <hr>
+                        <form id = "contact">
+                            <input id = "name" name = "name" type = "text" placeholder="Name">
+                            <input id = "email" name = "email" type = "text" placeholder = "Email">
+                            <input id = "message" name = "message" type = "text" placeholder = "Send us a message!">
+                        </form>
+                    </div>
+                    <div id = "tab-img">
+                        <img src = "images/food1.jpg">
+                    </div>
                 </div>
             </div>
         </div>
