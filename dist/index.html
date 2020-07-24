@@ -12,73 +12,63 @@
 
     <body>
         <div id = "content">
-            <div id = "tab-home">
-                <div id = "buttons">
-                    <button id = "home">HOME</button>
-                    <button id = "menu">MENU</button>
-                    <button id = "contact">CONTACT</button>
+            <nav class="menu-container">
+                <!-- logo -->
+                <a href="#" class="menu-logo">
+                  <img src="https://wweb.dev/resources/navigation-generator/logo-placeholder.png" alt="My Awesome Website"/>
+                </a>
+              
+                <!-- menu items -->
+                <div class="menu">
+                  <ul>
+                    <li>
+                      <a id = "home" href="#">
+                        Home
+                      </a>
+                    </li>
+                    <li>
+                      <a id = "about" href="#">
+                        About
+                      </a>
+                    </li>
+                    <li>
+                      <a id = "menu" href="#">
+                        Menu
+                      </a>
+                    </li>
+                  </ul>
+                  <ul>
+                  </ul>
                 </div>
-                <div id = "tab-content">
-                    <div id = "tab-text">
-                        <h1>Our Restaurant</h1>
-                        <hr>
-                        <p>
-                            We are dedicated to serving the best food.
-                            Check out our menu for more information!
-                            Locally sourced ingredients, never frozen
-                            and always fresh!
-                        </p>
-                    </div>
-                    <div id = "tab-img">
-                        <img src = "images/food1.jpg">
-                    </div>
-                </div>
+              </nav>
+            
+            <div id = home-text>
+                  <h1>Home</h1>
+                  <hr>
+                  <p>
+                      Welcome to our restaurant! We only use the best ingredients!
+                      Food is always fresh, never frozen. Come check us out!
+                  </p>
             </div>
 
-            <div id = "tab-menu" class = "display-none">
-                <div id = "buttons">
-                    <button id = "home">HOME</button>
-                    <button id = "menu">MENU</button>
-                    <button id = "contact">CONTACT</button>
-                </div>
-                <div id = "tab-content">
-                    <div id = "tab-text">
-                        <h1>Menu</h1>
-                        <hr>
-                        <p>
-                            Serving tomato soup,
-                            spaghetti, pizza, and
-                            hamburgers fresh from the farm!
-                            Come check us out!
-                        </p>
-                    </div>
-                    <div id = "tab-img">
-                        <img src = "images/food1.jpg">
-                    </div>
-                </div>
+            <div id = about-text>
+                <h1>About</h1>
+                <p>
+                    Welcome to our restaurant! We only use the best ingredients!
+                    Food is always fresh, never frozen. Come check us out!
+                </p>
             </div>
 
-            <div id = "tab-contact" class = "display-none">
-                <div id = "buttons">
-                    <button id = "home">HOME</button>
-                    <button id = "menu">MENU</button>
-                    <button id = "contact">CONTACT</button>
-                </div>
-                <div id = "tab-content">
-                    <div id = "tab-text">
-                        <h1>Contact Us</h1>
-                        <hr>
-                        <form id = "contact">
-                            <input id = "name" name = "name" type = "text" placeholder="Name">
-                            <input id = "email" name = "email" type = "text" placeholder = "Email">
-                            <input id = "message" name = "message" type = "text" placeholder = "Send us a message!">
-                        </form>
-                    </div>
-                    <div id = "tab-img">
-                        <img src = "images/food1.jpg">
-                    </div>
-                </div>
+            <div id = menu-text>
+                <h1>Menu</h1>
+                <hr>
+                <p>
+                    Welcome to our restaurant! We only use the best ingredients!
+                    Food is always fresh, never frozen. Come check us out!
+                </p>
             </div>
+
+
         </div>
         <script src="main.js" async defer></script>
     </body>
