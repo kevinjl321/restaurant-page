@@ -181,7 +181,6 @@ body {
 }
 
 #home-text, #about-text, #menu-text{
-    display: none;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;
@@ -190,6 +189,3 @@ body {
     border: 10px solid black;
 }
 
-.display{
-    display: flex;
-}
